@@ -1,0 +1,333 @@
+/* This is the stylesheet for index.html
+   Author: Karie Funk
+   Code attribution: CS3 Schools
+*/
+
+.article{
+
+  color: black;
+  background-color: white;
+
+}
+ 
+
+
+  p{
+    font-family: 'Darker Grotesque', sans-serif;
+    
+  }
+   
+
+html{
+  background-color: white;
+  scroll-behavior: smooth;
+}
+body{
+   
+    height: auto;
+    width: 86%;
+    margin-left: 7.3%;
+    margin-top: -5px;
+    margin-bottom:10px;
+    background: linear-gradient(90deg, rgb(230, 80, 10) 0%, rgb(240, 140, 19) 100%);
+}
+
+
+.logo{
+    width:45%;
+    height: 45%;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom:-40px;
+
+    
+    
+    
+}
+
+.navbar {
+  width: 100%;
+  margin-top:-250px;
+  overflow: auto;
+  margin-bottom: 30px;
+  
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+ 
+}
+
+.navbar a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.navbar a.active {
+  color: color;
+}
+
+
+
+
+
+
+footer{
+    
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+   padding-top: 30px;
+}
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  margin-top: 15px;
+  overflow: auto;
+  background-color: black;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color:white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color:black;
+}
+
+.navbar a.active {
+  color: orange;
+}
+
+.about{
+    font-size: 1.60em;
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+    text-align-last: justify;
+    text-align-last: left;
+    padding: 35px;
+
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    margin-left: 20%;
+    
+}
+        
+.form-control{
+    width: 600px;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size:18px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+ }
+        
+input{
+           height: 45px; 
+            
+        }
+       
+form .submit{
+    background:white;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 35px;
+    margin-top: 20px;
+}
+        
+form .submit:hover{
+    background-color: black;
+    color: white;
+}
+        
+
+.proj, .contact{
+  padding-top:60px;
+  padding-bottom:20px;
+  color: white;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .logo{
+    display: block;
+  
+  width: 100%;
+  height: auto;
+  margin-left: 29%;
+    margin-top: 2%;
+    margin-bottom:-80px;
+ 
+  }
+
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#about h2{
+    margin-left:90px;
+  
+}
+
+
+  }
+
+.Karie{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 35px;
+}
+
+h3 a{
+  text-decoration: none;
+  font-family: 'Didact Gothic', sans-serif;
+}
+h3 a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.contact{
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  
+
+}
+.contact p{
+  
+  font-size: 30px;
+  padding-top:-10px;
+
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover{
+  text-decoration: none;
+  color: orange;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Code Attribution: C3Schools */
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1090px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+
+
+}
+
+
